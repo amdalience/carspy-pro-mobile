@@ -14,3 +14,6 @@ def popular_vehicles():
         {"nom": "Tesla Model 3", "type": "électrique", "locations": 74}
     ]
     return jsonify(data)
+
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=10000)
